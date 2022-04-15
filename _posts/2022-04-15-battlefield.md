@@ -1,10 +1,10 @@
 ---
-layout: post
-title:  "Battlefield Test"
+title: Battlefield
+date: 2022-04-15 15:27:00 +0000
+categories: [gaming]
+tags: [games,battlefield,gaming,battlefield4]
 ---
 
-# Welcome
+# Introduction
 
-**Hello world**, this is my first Jekyll blog post.
-
-I hope you like it!
+I've started playing battlefield again, and boy what an experience it has been.
