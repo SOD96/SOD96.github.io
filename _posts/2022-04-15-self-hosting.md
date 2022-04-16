@@ -1,40 +1,46 @@
 ---
-title: Battlefield
+title: Self Hosting Your Own Projects
 date: 2022-04-15 19:55:00 +0000
-categories: [gaming]
-tags: [games,battlefield,gaming,battlefield4]
+categories: [development]
+tags: [aws,development,php,nginx,webserver]
 ---
 
-# Returning to Battlefield
+# Self Hosting
+Self hosting has pretty much gone out the door, relegated to being used for top 500 firms, those with in-house sysadmins or a developer testing their own local builds and projects.
 
-I decided to head back into Battlefield this week just looking for something to play. My experience might surprise you.
+I was born in 1996, so it was that weird middleground of having my entire childhood **nearly** tech free. I didn't grow up with the worry of having a camera pointed in my face or my worst nightmare posted on TikTok. Camcorders were much bigger back then, and they had tapes!
 
-## Back to 2042
+So it's safe to say that the expectation that you'd host your own website, wasn't ever one that crossed my mind. We had Dial Up, DSL, ADSL, these were never capable of sending a website anywhere. So you relied on data centers and third party to do all that hosting for you!
 
-I got Battlefield 2042 with the order of an M.2 SSD. Figured it was a good deal, until I played the game at launch and figured I'd actually want a refund if I had bought this. The Battlefield 2042 hate train has been boarded many a time, I don't want to get into everything as to why I don't like it, but here's a few...
-- Playing the 128 Player maps just feels way to open and empty
-    - I spawned at objectives and would have to run across the open sandy environment, whereby I'd then get randomly shot by a sniper, not fun.
-- Can't really do an Anti-Tank / Anti-Air build. The gadgets are boring and uninsipiring. Somehow in 2042 we have worse gear than we did in Battlefield 4.
-  - Armor seems very OP at the minute. You only get as far as I can tell 3 rockets to destroy stuff with, presuming you hit all 3 shots, even then I've still seen armor survive
+When AWS and Azure came on the scene, it made this a dream. I'm skipping a lot of background obviously but the point exists all the same.
 
-So it's fair to say, my experience with 2042, was just really boring and not fun. It has that mode where you can play the old battlefield games in the 2042 engine, but no joke it doesn't feel that great. It's better to just go back and play Battlefield 4
+## Back to Basics
 
-## Back to BF4
+Now a days, you can get an internet connection with 80 down 20 up as standard. This isn't the truest measure of performance but it's a hell of a lot better to send data to folk at 20mbit than it ever was at 0.5mbit.
 
-So I did. I went back to play Battlefield 4 this week. It's been a fantastic time. I've been running Anti-Air just taking down helicopters and jets. One thing though that I would say is that any experienced pilot will absolutely do one over on me. You can just fly up into the air, regain your flares/ECM and do another strafing run.
+I decided to go a bit outlandish for my package, and went with a local firm that supplied gigabit links to resedential properties. I was now dealing with having a connection at 1Gbit, that's 12 times faster than what I was used to and 99% of the time it was sitting around doing nothing. What could I actually do to utilize the power of this connection. Streaming Netflix is at what, 20mbit. I do all my own local Plex so actually I don't even stream.
 
-It got so bad that I was *1v1ing* this guy in a Jet with 6 stingers and he'd flush me of them all. Of course if my team was helping me taking down jets instead of having 1 guy on a 32 player team go after the armor, it might have went a bit better.
+We don't do much around the house, we're just two people in a house with a couple cats. This connection is overkill. So I figured let's put it to use!
 
-Either way, even though I was getting, bugger all score and dying it was so fun, the explosions of the jets raining down bombs on our team, me frantically trying to get a stinger off, then saying FUCK IT and going full RPG mode. What a game. I absolutely miss it.
+## Equipment, Software & Setup
+- iMac
+  - Virtual Machine Ubuntu Server
+- EdgeRouter X
+- Cloudflare
 
-It as at this point, where I figured... what about the other Battlefield games, am I missing out on some of the older ones, I never played BF1 or BF5 due to not enjoying the non-modern play style, that and I just don't think the game is that great in that setting.
+It's a real simple setup. I've got a virtual machine running on an iMac. That network is bridged with the normal iMac connection. From there I've got port forwarding setup on my router to direct any 80 or 443 traffic to that Virtual Machines IP.
 
-## Back to BF1/BF5
+Now, I can't just go broadcasting my home IP to the wild, that would be crazy, and sure there's going to be someone out there that might be able to find it, but to at least protect against the curious, I've implemented CloudFlare.
+Cloudflare will serve up content as a CDN, and since they're now my nameservers they can protect my IP from any lookups. Win win! And they cost nothing to run as well.
 
-I'll keep this very short. Battlefield 5 is unplayable due to the very unsupported nature of player run servers, so you get cheaters in every lobby with 0 admins there to help. Avoid at all costs.
-
-Battlefield 1 was a bit better, but the constant snipers just irrated me, so, ironically I went back to Battlefield 4. At least then I can throw an RPG at them and hope they die.
+So for an old iMac, a router that I already had and a free subscription to CloudFlare. I've been able to turn off my two AWS instances and host everything myself. Now of course it doesn't come with the power of the cloud, with redundency and whatnot. But for projects that are more show pieces than actual businesses, it's more than enough!
 
 ## Conclusion
 
-If you're looking for a shooter, with big armor action and plenty of community support, get yourself into Battlefield 4, it's cheap these days and I've been having a hell of a time. I think if Dice spent the past years pushing BF4 further, they'd have an excellent live service game on their hands rather than giving up and creating a new game every year.
+One thing might be appearing clear. I used to have a ~£45p/m AWS Bill, very quickly I've been able to cut that to nill going down this route. Sure you could argue the cost of power running that iMac. But that serves my plex server anyway, so it would have been on whether I did this or not.
+
+I'll be saving £540 a year. That's a good saving especially for someone whos projects have always came out their own pocket. It might be a bit more hands on at first, but I've been able to leave it alone for a while now and it's been up running absolutely fine! I did have to take it down one day to fix the ram usage, but other than that, I've had non-stop uptime!
+
+I'd absolutely put it forward to anyone else in this position. Do you have an internet connection that's massively over what you need? Do you have spare hardware lying around collecting dust? Might be worth checking into whether it's worth getting your own things self hosted.
+
+Now of course I wouldn't advocate for this approach these days for any serious implementations or projects. But for your own stuff? Why not! Saves you money and you get a good whack of experience becoming your own mini data center.
