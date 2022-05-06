@@ -1,8 +1,8 @@
 ---
-title: Cyberpunk
+title: My Experience with Cyberpunk 2077
 date: 2022-05-06 13:24:00 +0000
 categories: [gaming]
-tags: ['cyberpunk 2077', 'bugs', 'game issues', 'video games', 'cdprojectred']
+tags: ['cyberpunk-2077','bugs','game-issues','video-games','cd-project-red']
 ---
 
 # Initial Thoughts
@@ -21,7 +21,7 @@ I've done perhaps 5-6 hours of side content in between that mission, I've progre
 
 Not to mention performance just feels worse. I've got a Ryzen 9 3900x, and an RTX 2080ti. FPS is genuinely around 30-40 when in gunfights. It's unacceptable.
 
-## What do?
+## What do I do?
 
 At this point I need to wait for CDPR to fix the bug, which has existed apparently since launch and still isn't fixed. There's plenty of other people out there with the same issue as me. There isn't even any mods or hacks I can do to fix it either it seems. If anyone out there knows a fix, let me know! contact@seanodonnell.co.uk
 
