@@ -2,7 +2,7 @@
 title: Cyberpunk
 date: 2022-05-06 13:24:00 +0000
 categories: [gaming]
-tags: ['cyberpunk 2077', 'bugs' 'game issues', 'video games', 'cdprojectred']
+tags: ['cyberpunk 2077', 'bugs', 'game issues', 'video games', 'cdprojectred']
 ---
 
 # Initial Thoughts
