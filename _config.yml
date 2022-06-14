@@ -33,6 +33,8 @@ description: >-                        # used by seo meta and the atom feed
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://switchedbit.com'
+plugins:
+  - jekyll-sitemap
 
 github:
   username: sod96             # change to your github username
