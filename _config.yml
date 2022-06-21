@@ -29,7 +29,7 @@ title: SwitchedBit                          # the main title
 tagline: Technology, Development and Gaming   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A Blog full of ranting and raving!
+  Just a corner on the web to discuss some technology topics like development and gaming.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://switchedbit.com'
@@ -40,7 +40,7 @@ github:
   username: sod96             # change to your github username
 
 twitter:
-  username: sean_odonnell96            # change to your twitter username
+  username: switchedbit            # change to your twitter username
 
 social:
   # Change to your full name.
@@ -49,7 +49,7 @@ social:
   email: contact@seanodonnell.co.uk             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/sean_odonnell96      # change to your twitter homepage
+    - https://twitter.com/switchedbit      # change to your twitter homepage
     - https://github.com/sod96       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -61,7 +61,7 @@ google_site_verification:               # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id:                 # fill in your Google Analytics ID
+  id: UA-57822105-2 # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
