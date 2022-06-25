@@ -35,6 +35,7 @@ description: >-                        # used by seo meta and the atom feed
 url: 'https://switchedbit.com'
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 github:
   username: sod96             # change to your github username
