@@ -1,5 +1,6 @@
 ---
 title: Compiling Unreal Engine 5 on Arch Linux (Manjaro)
+description: Taking the plunge into Unreal Engine 5 on Arch Linux, a surprisingly straight forward process
 date: 2022-06-13 13:24:00 +0000
 categories: [development]
 tags: 

@@ -1,5 +1,6 @@
 ---
 title: Creating Streambit.TV
+description: The development diary of StreamBit.tv a VOD/Streaming service
 date: 2022-04-16 14:13:00 +0000
 categories: [development]
 tags: [aws,development,php,nginx,webserver,streaming,streambit,vod,video,wowza]

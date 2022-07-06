@@ -1,5 +1,6 @@
 ---
 title: Revisiting StreamUpdater.com | Revisiting old side projects
+description: I revisit StreamUpdater which is a project which automatically updated your Twitch Stream information as your playing games
 date: 2022-06-19 13:24:00 +0000
 categories: [development]
 tags: 

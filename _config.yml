@@ -28,7 +28,7 @@ title: SwitchedBit                          # the main title
 
 tagline: Technology, Development and Gaming   # it will display as the sub-title
 
-description: >-                        # used by seo meta and the atom feed
+description:                         # used by seo meta and the atom feed
   Just a corner on the web to discuss some technology topics like development and gaming.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
@@ -42,6 +42,7 @@ github:
 
 twitter:
   username: switchedbit            # change to your twitter username
+  card: summary
 
 social:
   # Change to your full name.
@@ -55,6 +56,10 @@ social:
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
+author:
+  twitter: sean_odonnell_96
+  name: Sean O'Donnell
+  url: https://seanodonnell.co.uk
 
 google_site_verification:               # fill in to your verification string
 

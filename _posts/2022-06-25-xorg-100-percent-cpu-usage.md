@@ -1,5 +1,6 @@
 ---
 title: XOrg stuck at 100% CPU Usage | Laggy Experience in Games | Laggy Manjaro (SOLUTION)
+description: Issues with XOrg on Linux going to 100% CPU Usage and causing your games to lag? I found the solution!
 date: 2022-06-25 13:24:00 +0000
 categories: [development]
 tags: 
@@ -11,7 +12,7 @@ tags:
 - x11
 - xorg 100% CPU
 - xorg lagging
-- Linux LAgging
+- Linux Lagging
 ---
 
 # The initial Problem
@@ -32,7 +33,7 @@ It did dawn on me however, that my experience with Call of Duty, wasn't the best
 Yes, the first thread I came across recommended a new desktop environment or playing around in that sector. Straight up, do not do this. I've now got a situation where I have two, split across different users and my original doesn't work like it used to. It's fine, but whatever commands I ran, just don't do it. Don't go down this hole because your problem is unlikely to be with the DE, at least consider your own hardware. I'm running a Ryzen 9 3900x and a RTX 2080ti. I should be able to handle any DE that comes my way. I'm now left trying to restore my life back to how it used to be!
 
 ## Perhaps it was Lutris!
-A Worthy suggestion, I'm not too clever with how Lutris works, but I imagine the brainboxes at valve with their far simplier UI must have figured it out a tad better, after all, whenever I launched Battlefield 4, all it did was launch Origin! Surely Steam would have a better solution... It does and it doesn't. It doesn't launch Origin, but it came with all the same problems that Lutris had. I spent £3.99 on EA Access just to test this, problem existed on both platforms.
+A Worthy suggestion, I'm not too clever with how Lutris works, but I imagine the brainboxes at valve with their far simplier UI must have figured it out a tad better, after all, whenever I launched Battlefield 4, all it did was launch Origin! Surely Steam would have a better solution... It does and it doesn't. It doesn't launch Origin (At least not fat origin), but it came with all the same problems that Lutris had. I spent £3.99 on EA Access just to test this, problem existed on both platforms. Game would be choppy, mouse lagging, etc...
 
 ## WHY XORG!
 

@@ -1,5 +1,6 @@
 ---
 title: Adventuring into C++
+description: The beginining of my C++ adventures, as a web developer is it something I can pick up?
 date: 2022-06-07 13:24:00 +0000
 categories: [development]
 tags: 

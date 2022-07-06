@@ -1,5 +1,6 @@
 ---
 title: Self Hosting Your Own Projects
+description: Is it worth self hosting your own projects? I task myself with converting my AWS account into a web server in my living room.
 date: 2022-04-15 19:55:00 +0000
 categories: [development]
 tags: [aws,development,php,nginx,webserver]
